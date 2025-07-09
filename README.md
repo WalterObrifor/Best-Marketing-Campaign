@@ -1,11 +1,13 @@
-# Best-Marketing-Campaign IN KFCP
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkyj_DCXIWbsf0iKctAAgieoK0p6uLs8T2qA&s) :|: ![](https://www.tubekarma.com/wp-content/uploads/2021/06/How-To-See-Real-Time-Live-Youtube-Subscriber-Count-1024x576.jpg)
+# Best-Marketing-Campaign FOR KFCP ONLiNE STORE
+![](https://www.tubekarma.com/wp-content/uploads/2021/06/How-To-See-Real-Time-Live-Youtube-Subscriber-Count-1024x576.jpg)
 
-## Objective
-The Head of Marketing in KFCP wants to find out who the top YouTubers are in 2024 to decide on which YouTubers would be best to run marketing campaigns throughout the rest of the year.
+## Introduction
+The Head of Marketing in KFCP, Mrs Sharon Clinton, wants the data team to find out the top YouTubers are in 2024. This information will help her decide on which YouTubers would be use to run marketing campaigns throughout the rest of the year. It would also allow her to identify the top performing channels based on metrics like, subscriber base and average views. 
+With this information, she can make more informed decisions about which Youtubers are right to collaborate with, and therefore maximize how effective each marketing campaign is. 
+This information is very important to the growth of the company as the chief director has agreed to put more investments into their publicity. Prior to this time, other publicity campaign has failed. Statistics shows that YouTube is the best place for running adds now.    
 
-What is the ideal solution?
-To create a dashboard that provides insights into the top UK YouTubers in 2024 that includes their
+## Objectives
+Create a dashboard that provides insights into the top UK YouTubers in 2024 that includes their
 
 * subscriber count
 * total views
@@ -16,11 +18,7 @@ This will help the marketing team make informed decisions about which YouTubers 
 ## User story
 As the Head of Marketing, I want to use a dashboard that analyses YouTube channel data in the UK .
 
-This dashboard should allow me to identify the top performing channels based on metrics like subscriber base and average views.
-
-With this information, I can make more informed decisions about which Youtubers are right to collaborate with, and therefore maximize how effective each marketing campaign is.
-
-##Data source
+## Data source
 What data is needed to achieve our objective?
 We need data on the top UK YouTubers in 2024 that includes their
 
