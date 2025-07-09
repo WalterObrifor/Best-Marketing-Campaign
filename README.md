@@ -1,5 +1,5 @@
 # Best-Marketing-Campaign FOR KFCP ONLiNE STORE
-![](https://www.google.com/imgres?q=company%20buildings&imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F290275%2Fpexels-photo-290275.jpeg%3Fcs%3Dsrgb%26dl%3Dpexels-pixabay-290275.jpg%26fm%3Djpg&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fcorporate%2520building%2F&docid=IzdMvago0f8XXM&tbnid=qbgSZFhUHHH--M&vet=12ahUKEwi00o2Vg7COAxU-U0EAHZCJCioQM3oECFsQAA..i&w=2367&h=2367&hcb=2&ved=2ahUKEwi00o2Vg7COAxU-U0EAHZCJCioQM3oECFsQAA)
+![image](https://github.com/user-attachments/assets/20591281-1503-43a5-8ad3-2628212ffc24)
 
 ## Introduction
 **The Head of Marketing in KFCP, Mrs Sharon Clinton, wants the data team to find out the top YouTubers are in 2024. This information will help her decide on which Youtubers are right to collaborate with, and therefore maximize how effective each marketing campaign is, based on metrics like, subscriber base and average views.**
