@@ -120,7 +120,7 @@ total_videos |	INTEGER |	NO
 * Extract Youtube channel names from the first column
 * Rename columns using aliases
 
-```` sql
+``` sql
 Transform the data
 /*
 # 1. Select the required columns
@@ -136,5 +136,169 @@ SELECT
 
 FROM
     top_uk_youtubers_2024
-```/ sql
+```
+## Create the SQL view
+``` sql
+/*
+# 1. Create a view to store the transformed data
+# 2. Cast the extracted channel name as VARCHAR(100)
+# 3. Select the required columns from the top_uk_youtubers_2024 SQL table 
+*/
 
+-- 1.
+CREATE VIEW view_uk_youtubers_2024 AS
+
+-- 2.
+SELECT
+    CAST(SUBSTRING(NOMBRE, 1, CHARINDEX('@', NOMBRE) -1) AS VARCHAR(100)) AS channel_name, -- 2. 
+    total_subscribers,
+    total_views,
+    total_videos
+
+-- 3.
+FROM
+    top_uk_youtubers_2024
+```
+
+## Row count check
+``` sql
+/*
+# Count the total number of records (or rows) are in the SQL view
+*/
+
+SELECT
+    COUNT(*) AS no_of_rows
+FROM
+    view_uk_youtubers_2024;
+```
+![](image)
+
+## Column count check
+### SQL query
+/*
+# Count the total number of columns (or fields) are in the SQL view
+*/
+````sql
+SELECT
+    COUNT(*) AS column_count
+FROM
+    INFORMATION_SCHEMA.COLUMNS
+WHERE
+    TABLE_NAME = 'view_uk_youtubers_2024'
+````
+
+## Output
+![](Image)
+
+## Data type check
+### SQL query
+/*
+# Check the data types of each column from the view by checking the INFORMATION SCHEMA view
+*/
+````sql
+-- 1.
+SELECT
+    COLUMN_NAME,
+    DATA_TYPE
+FROM
+    INFORMATION_SCHEMA.COLUMNS
+WHERE
+    TABLE_NAME = 'view_uk_youtubers_2024';
+````
+## Output
+![](image)
+
+## Duplicate count check
+### SQL query
+````sql
+/*
+# 1. Check for duplicate rows in the view
+# 2. Group by the channel name
+# 3. Filter for groups with more than one row
+*/
+
+-- 1.
+SELECT
+    channel_name,
+    COUNT(*) AS duplicate_count
+FROM
+    view_uk_youtubers_2024
+
+-- 2.
+GROUP BY
+    channel_name
+
+-- 3.
+HAVING
+    COUNT(*) > 1;
+````
+## Output
+![](image)
+
+## Visualization
+### Results
+**What does the dashboard look like?**
+
+![](Image)
+
+**This shows the Top UK Youtubers in 2024 so far.**
+
+##DAX Measures
+1. Total Subscribers (M)
+````sql
+   Total Subscribers (M) = 
+VAR million = 1000000
+VAR sumOfSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR totalSubscribers = DIVIDE(sumOfSubscribers,million)
+
+RETURN totalSubscribers
+````
+
+## 2. Total Views (B)
+````sql
+Total Views (B) = 
+VAR billion = 1000000000
+VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
+VAR totalViews = ROUND(sumOfTotalViews / billion, 2)
+
+RETURN totalViews
+````
+
+## 3. Total Videos
+````sql
+Total Videos = 
+VAR totalVideos = SUM(view_uk_youtubers_2024[total_videos])
+
+RETURN totalVideos
+````
+
+## 4. Average Views Per Video (M)
+````sql
+Average Views per Video (M) = 
+VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
+VAR sumOfTotalVideos = SUM(view_uk_youtubers_2024[total_videos])
+VAR  avgViewsPerVideo = DIVIDE(sumOfTotalViews,sumOfTotalVideos, BLANK())
+VAR finalAvgViewsPerVideo = DIVIDE(avgViewsPerVideo, 1000000, BLANK())
+
+RETURN finalAvgViewsPerVideo
+````
+
+## 5. Subscriber Engagement Rate
+````sql
+Subscriber Engagement Rate = 
+VAR sumOfTotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR sumOfTotalVideos = SUM(view_uk_youtubers_2024[total_videos])
+VAR subscriberEngRate = DIVIDE(sumOfTotalSubscribers, sumOfTotalVideos, BLANK())
+
+RETURN subscriberEngRate
+````
+
+## 6. Views per subscriber
+````sql
+Views Per Subscriber = 
+VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
+VAR sumOfTotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR viewsPerSubscriber = DIVIDE(sumOfTotalViews, sumOfTotalSubscribers, BLANK())
+
+RETURN viewsPerSubscriber
+````
