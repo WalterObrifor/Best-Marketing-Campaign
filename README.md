@@ -17,17 +17,10 @@
 **This will help the marketing team make informed decisions about which YouTubers to collaborate with for their marketing campaigns.**
 
 ## Data source
+**The data is sourced from Kaggle (an Excel extract).**
 **The dataset will be added in the repository**
-We need data on the top UK YouTubers in 2024 that includes their
 
-* channel names
-* total subscribers
-* total views
-* total videos uploaded
-
-Where is the data coming from? The data is sourced from Kaggle (an Excel extract), see here to find it.
-
-## Stages
+## Stages of this project
 * Design
 * Developement
 * Testing
