@@ -2,9 +2,9 @@
 ![](https://www.tubekarma.com/wp-content/uploads/2021/06/How-To-See-Real-Time-Live-Youtube-Subscriber-Count-1024x576.jpg)
 
 ## Introduction
-The Head of Marketing in KFCP, Mrs Sharon Clinton, wants the data team to find out the top YouTubers are in 2024. This information will help her decide on which YouTubers would be use to run marketing campaigns throughout the rest of the year. It would also allow her to identify the top performing channels based on metrics like, subscriber base and average views. 
-With this information, she can make more informed decisions about which Youtubers are right to collaborate with, and therefore maximize how effective each marketing campaign is. 
-This information is very important to the growth of the company as the chief director has agreed to put more investments into their publicity. Prior to this time, other publicity campaign has failed. Statistics shows that YouTube is the best place for running adds now.    
+**The Head of Marketing in KFCP, Mrs Sharon Clinton, wants the data team to find out the top YouTubers are in 2024. This information will help her decide on which Youtubers are right to collaborate with, and therefore maximize how effective each marketing campaign is, based on metrics like, subscriber base and average views.**
+
+**This information is very important to the growth of the company as the chief director has agreed to put more investments into their publicity. Prior to this time, other publicity campaign has failed. Statistics shows that YouTube is the best place for running adds now.**    
 
 ## Objectives
 Create a dashboard that provides insights into the top UK YouTubers in 2024 that includes their
