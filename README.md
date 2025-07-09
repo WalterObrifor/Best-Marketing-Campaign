@@ -1,25 +1,23 @@
-# Best-Marketing-Campaign FOR KFCP ONLiNE STORE
+# Best-Marketing-Campaign FOR KFCP ONLINE STORE
 ![image](https://github.com/user-attachments/assets/20591281-1503-43a5-8ad3-2628212ffc24)
 
 ## Introduction
-**The Head of Marketing in KFCP, Mrs Sharon Clinton, wants the data team to find out the top YouTubers are in 2024. This information will help her decide on which Youtubers are right to collaborate with, and therefore maximize how effective each marketing campaign is, based on metrics like, subscriber base and average views.**
+**The Head of Marketing in KFCP, Mrs Sharon Clinton, wants the data team to find out the top YouTubers are in 2024. This information will help her decide on which Youtubers are best to collaborate with, and therefore maximize how effective each marketing campaign is**
 
 **Prior to this time, other publicity campaign has failed. Statistics shows that YouTube is the best place for running adds now.**    
 
 ## Objectives
-Create a dashboard that provides insights into the top UK YouTubers in 2024 that includes their
+**Create a dashboard that provides insights into the top UK YouTubers in 2024 that includes their:**
 
 * subscriber count
 * total views
 * total videos, and
 * engagement metrics
-This will help the marketing team make informed decisions about which YouTubers to collaborate with for their marketing campaigns.
-
-## User story
-As the Head of Marketing, I want to use a dashboard that analyses YouTube channel data in the UK .
+  
+**This will help the marketing team make informed decisions about which YouTubers to collaborate with for their marketing campaigns.**
 
 ## Data source
-What data is needed to achieve our objective?
+**The dataset will be added in the repository**
 We need data on the top UK YouTubers in 2024 that includes their
 
 * channel names
