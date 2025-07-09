@@ -1,4 +1,5 @@
 # Best-Marketing-Campaign IN KFCP
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkyj_DCXIWbsf0iKctAAgieoK0p6uLs8T2qA&s)
 
 ## Objective
 The Head of Marketing in KFCP wants to find out who the top YouTubers are in 2024 to decide on which YouTubers would be best to run marketing campaigns throughout the rest of the year.
